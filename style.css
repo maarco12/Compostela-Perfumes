@@ -67,7 +67,10 @@ section {
 }
 .brand-cont {
   display: flex;
+  align-items: center;
   justify-content: space-evenly;
+  width: 100%;
+  margin: auto;
   background-color: var(--color1);
 }
 .brand-card img {
@@ -76,7 +79,15 @@ section {
 }
 /* FRAGANCIAS */
 #perfumes {
-  background-color: tomato;
+  background-color: var(--color1);
+}
+.perfume-cont {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+}
+.perfume-card img {
+  width: 200px;
 }
 /* CONTACTO */
 #contact {
