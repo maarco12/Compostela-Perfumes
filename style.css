@@ -62,6 +62,9 @@ section {
   width: 50%;
 }
 /* MARCAS */
+#brands {
+  background-color: var(--color1);
+}
 .brand-cont {
   display: flex;
   justify-content: space-evenly;
