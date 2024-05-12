@@ -30,9 +30,6 @@ nav ul {
   list-style: none;
 }
 nav ul li a {
-  background-color: black;
-  padding: 7px 13px;
-  border-radius: 25px;
   color: var(--color3);
   text-decoration: none;
   font-size: 30px;
