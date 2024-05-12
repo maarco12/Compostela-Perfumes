@@ -39,7 +39,23 @@ nav ul li a {
 }
 /* TITULO */
 #content {
+  display: flex;
   background-color: var(--color1);
+  justify-content: space-evenly;
+}
+#content div {
+  padding: 20px 100px;
+}
+#content div h1 {
+  color: var(--color3);
+  font-size: 40px;
+}
+#content div p {
+  color: var(--color3);
+}
+#content img {
+  padding: 10px;
+  width: 100px;
 }
 /* MARCAS */
 #brands {
